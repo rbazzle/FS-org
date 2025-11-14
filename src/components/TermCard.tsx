@@ -30,7 +30,7 @@ export function TermCard({ term, showDetails }: TermCardProps) {
           {hasDetails && (
             <div className="border-t border-border pt-4 mt-4 bg-muted/30 -mx-6 px-6 animate-in slide-in-from-top-2 duration-200">
               <div className="space-y-2.5">
-                {term.details.map((detail, idx) => (
+                {term.details?.map((detail, idx) => (
                   <div key={idx} className="text-sm">
                     <span className="font-medium text-card-foreground">{detail.label}:</span>{' '}
                     <span className="text-muted-foreground">{detail.value}</span>
@@ -46,13 +46,13 @@ export function TermCard({ term, showDetails }: TermCardProps) {
                 const getTagColors = () => {
                   switch (tag.variant) {
                     case 'role':
-                      return 'bg-blue-100 dark:bg-blue-100 text-blue-700 dark:text-blue-700 border-blue-200 dark:border-blue-200';
+                      return 'bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 border-blue-200 dark:border-blue-800';
                     case 'governance':
-                      return 'bg-violet-100 dark:bg-violet-100 text-violet-700 dark:text-violet-700 border-violet-200 dark:border-violet-200';
+                      return 'bg-violet-100 dark:bg-violet-900/30 text-violet-700 dark:text-violet-300 border-violet-200 dark:border-violet-800';
                     case 'process':
-                      return 'bg-emerald-100 dark:bg-emerald-100 text-emerald-700 dark:text-emerald-700 border-emerald-200 dark:border-emerald-200';
+                      return 'bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800';
                     case 'object':
-                      return 'bg-amber-100 dark:bg-amber-100 text-amber-700 dark:text-amber-700 border-amber-200 dark:border-amber-200';
+                      return 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 border-amber-200 dark:border-amber-800';
                     default:
                       return 'bg-muted text-muted-foreground border-border';
                   }
