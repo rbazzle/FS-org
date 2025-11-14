@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary - Subtle blue (shadCN inspired) */
+  --color-primary: oklch(45.7% 0.078 264.4);
+  --color-primary-foreground: oklch(98% 0 0);
+  
+  /* Muted backgrounds */
+  --color-muted: oklch(96.5% 0 0);
+  --color-muted-foreground: oklch(45% 0.006 286);
+  
+  /* Accent for highlights */  
+  --color-accent: oklch(96.5% 0 0);
+  --color-accent-foreground: oklch(15% 0.006 286);
+  
+  /* Borders */
+  --color-border: oklch(89% 0.003 286);
+  --color-input: oklch(89% 0.003 286);
+  
+  /* Card backgrounds */
+  --color-card: oklch(100% 0 0);
+  --color-card-foreground: oklch(15% 0.006 286);
+  
+  /* Semantic colors with proper contrast */
+  --color-blue-100: oklch(95% 0.025 250);
+  --color-blue-200: oklch(90% 0.040 250);
+  --color-blue-600: oklch(50% 0.130 250);
+  --color-blue-700: oklch(42% 0.120 250);
+  
+  --color-violet-100: oklch(95% 0.020 290);
+  --color-violet-200: oklch(88% 0.040 290);
+  --color-violet-600: oklch(50% 0.130 290);
+  --color-violet-700: oklch(42% 0.120 290);
+  
+  --color-emerald-100: oklch(94% 0.040 160);
+  --color-emerald-200: oklch(88% 0.070 160);
+  --color-emerald-600: oklch(55% 0.130 160);
+  --color-emerald-700: oklch(45% 0.120 160);
+  
+  --color-amber-100: oklch(95% 0.050 85);
+  --color-amber-200: oklch(90% 0.080 85);
+  --color-amber-600: oklch(65% 0.140 85);
+  --color-amber-700: oklch(55% 0.130 85);
+}
+
+@media (prefers-color-scheme: dark) {
+  @theme {
+    /* Primary */
+    --color-primary: oklch(70% 0.100 264.4);
+    --color-primary-foreground: oklch(15% 0.006 286);
+    
+    /* Muted backgrounds */
+    --color-muted: oklch(25% 0.008 286);
+    --color-muted-foreground: oklch(64% 0.012 286);
+    
+    /* Accent */
+    --color-accent: oklch(25% 0.008 286);
+    --color-accent-foreground: oklch(98% 0 0);
+    
+    /* Borders */
+    --color-border: oklch(30% 0.010 286);
+    --color-input: oklch(30% 0.010 286);
+    
+    /* Card */
+    --color-card: oklch(16% 0.006 286);
+    --color-card-foreground: oklch(98% 0 0);
+    
+    /* Semantic colors - dark mode */
+    --color-blue-100: oklch(30% 0.040 250);
+    --color-blue-200: oklch(35% 0.060 250);
+    --color-blue-600: oklch(70% 0.120 250);
+    --color-blue-700: oklch(75% 0.100 250);
+    
+    --color-violet-100: oklch(30% 0.040 290);
+    --color-violet-200: oklch(35% 0.060 290);
+    --color-violet-600: oklch(70% 0.120 290);
+    --color-violet-700: oklch(75% 0.100 290);
+    
+    --color-emerald-100: oklch(25% 0.050 160);
+    --color-emerald-200: oklch(30% 0.070 160);
+    --color-emerald-600: oklch(70% 0.120 160);
+    --color-emerald-700: oklch(75% 0.100 160);
+    
+    --color-amber-100: oklch(30% 0.050 85);
+    --color-amber-200: oklch(35% 0.070 85);
+    --color-amber-600: oklch(75% 0.120 85);
+    --color-amber-700: oklch(80% 0.100 85);
+  }
+}

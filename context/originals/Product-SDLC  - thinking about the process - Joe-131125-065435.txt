@@ -1,0 +1,380 @@
+SDLC - thinking about the process - Joe
+
+Very much work-in-progress. NOT curated. NOT Approved. Just a way to keep track of work on
+this - The Operating Model which will inform the SDLC document.
+current version?
+https://churchofjesuschrist.sharepoint.com/sites/ProductDesignandEngineering/SiteAssets/F
+orms/AllItems.aspx?id=%2Fsites%2FProductDesignandEngineering%2FSiteAssets%2FSitePag
+es%2FHome%2FSDLC%2DVersion%2D2%2E4%2D%2D%2DUpdated%2D7%2E8%2E25%2E
+pdf&parent=%2Fsites%2FProductDesignandEngineering%2FSiteAssets%2FSitePages%2FHo
+me Connect your OneDrive account
+SDLC Document Committee
+Initiative and Work-Plan LifeCycle for '25 Team Project Model
+
+Full Operating Model - Blueprint
+stake in the ground. now refine this. “walk it to break it”
+22oct2025:
+
+FS Operating M…t-3.pdf
+
+22 Oct 2025 04:15 PM
+
+Object Taxonomy
+
+🔷 1. Initiative – Strategic Business Goal
+Definition: A high-level objective set by leadership, often tied to business performance (e.g.,
+increase revenue, improve retention).
+Purpose: Provides strategic direction and context for product teams.
+Application: Teams align their work to initiatives to align their work, but they must translate
+them into actionable outcomes.
+Example: “Improve customer retention.”
+
+🔷 2. Outcome – Measurable Customer Behavior
+Definition: A specific, observable change in customer behavior that derives from an supports
+the initiative.
+Purpose: Shifts focus to impact (behavior) rather than output (features).
+Types:
+Business Outcomes: Lagging indicators (e.g., revenue) ) that teams can't directly control
+Product Outcomes: Leading indicators (e.g., increased usage). Metrics teams can
+influence directly.
+Application: Teams negotiate outcomes with leadership and tracked via metrics.
+Example: “Increase repeat purchases by 15%.”
+
+🔷 3. Opportunity – Customer Need or Problem
+Definition: A gap between customers expect and what they experience—pain points, desires,
+or unmet needs.
+Purpose: Guides discovery and ideation by surfacing real customer problems.
+Application:
+Discovered through interviews, usability tests, and feedback.
+Organized in an Opportunity Solution Tree under the outcome.
+Prioritized based on qualitative impact on the outcome.
+Framing: Opportunities should be customer-centric and distinct, not vague sentiments or
+disguised solutions.
+Example: “Customers abandon carts due to unclear shipping costs.”
+
+🔷 4. Solution – Hypothesis to Address an Opportunity
+Definition: A proposed feature, change, or experiment designed to solve a specific
+opportunity.
+Purpose: Provides a tactical response to customer needs.
+Application:
+Teams generate multiple ideas.
+Use assumption testing to validate before building.
+Prioritize based on feasibility, desirability, and impact.
+Example: “Add a shipping cost estimator to the cart page.”
+
+🔶 5. WorkPlan
+Workplan – Execution & Tracking Object
+Definition: A time-boxed (≤90 days) plan that moves a validated solution through the phases
+of the Operating Model (SDLC)
+Idea Inception – Initial insight or trigger.
+Draft Proposal – Early framing of the solution and assumptions.
+Investigate – Discovery, validation, and assumption testing.
+Build – Engineering implementation.
+Release & Measure – Deployment to users. – Evaluate impact against the outcome.
+Purpose: Operationalizes solutions and ensures delivery is time-bound and iterative.
+Application: Anchored to a solution, usually scoped to a single team, and used to track
+progress and learning.
+
+🔶 Practical Use in Product Teams
+Object
+
+Role in Team Workflow
+
+Key Question Answered
+
+Initiative
+
+Aligns team with business
+strategy
+
+Why are we doing this?
+
+Outcome
+
+Defines success in measurable What change do we want?
+terms
+
+Opportunity
+
+Focuses discovery on
+customer needs
+
+Why aren’t customers
+succeeding?
+
+Solution
+
+Drives experimentation and
+delivery
+
+What can we build to help?
+
+Workplan
+
+Execute and track delivery
+
+How will we deliver and learn?
+
+🔶 Hierarchical Relationship
+Hierarchy & Flow
+
+Initiative is the strategic business goal - why.
+Outcome is the measurable what you want to achieve
+Opportunity is the customer-centric needs/problems - why.
+Solution is the tactical ideas what to address those needs.
+Workplan is the accounting, tracking object
+
+History:
+Blueprint start:
+
+Ferenc flow diagram: “
+https://www.figma.com/design/eLKoxoqmhCOCAd8pzDpCpU/Pilot-v.2f?node-id=0-1&p=f&
+t=0z8S4FUu36t85a7R-0 Connect your Figma account
+sdlc-cmte: “We might use all of it, or just part of it, but my understanding is that it is still being
+reviewed and discussed. Which is why I mentioned during our last SDLC Document
+Committee meeting that aligning with the Ferenc diagram was a much lower priority right now,
+and not something we would be working on during Q3.”
+see below
+What is the glossary: objects (on the conveyor belt, initiatives, deliverables
+proposals/requests…), touchpoints/gates, entities (teams groups… that interact) what they do to
+the objects.
+
+Can it be simpler - like the previous SDLC and how to modify it.
+
+Blueprint of the Process? - August 22, 2025
+Build a Blueprint of the process, then the SDLC can document it, tools can implement the
+process..
+I would like to see a blueprint of what the full process is, then get that accepted and then
+document and implement it. - just like our initiative - eat our own dog food? For instance :
+Where is "Done"
+Where is Production release (THeres a main heading called Release & Measure - but I see
+no Release - and how is % rollout handled
+Where do we capture and track measure after Release - copilot, jira...? For how long. i.e. in
+FSPL once its Done there is an urgency to get it out of theway and not look at outcome
+I think the Proposal to Investigate is ambiguous and doesnt seem to have the rigor to
+adequately access ROI... for instance this has many aspect that should be part of the rigor:
+Cookbook of Product Architecture
+In summary: I feel I’m lacking seeing a “blueprint” - something that defines the steps, stages,
+objects, etc. of the SDLC process. Running some sample efforts will help us define the blueprint:
+
+Define the process - “blueprint" for the sake of this discussion. With the process defined then
+the org can:
+Document the process. Maybe this is the SDLC document
+Implement the tools that support the process
+a. in Pilot
+b. in Jira
+c. ...
+Possibly consider organization changes that support the execution of the process
+One way to arrive at the blueprint is to take one or two efforts that are in-flight today and see
+what is working and what is lacking. This is not a fault of the team, but rather the ambiguity of
+the current process and of the culture of the organization. For starters I suggest running two
+sample efforts (initiatives) through this exercise:
+Sample 1: Golden tree hints
+Sample 2: ?
+Where is the canonical form of the process? We have discussed that the Ferenc diagram, Pilot
+execution, Jira structure are not in sync. Once we have that blueprint we can carve out work
+to document and implement and refine.
+a. The “blueprint” should be descriptive and non-ambiguous.
+i. It defines the phases, steps, stages, roles, objects (initiative, workplace), dashboards,
+integration touchpoints, etc.
+ii. Define the effort’s characteristics (i.e Outcome, hypothesis, …) that need to be
+considered as part of the approval process
+iii. Define the efforts ROI/Outcome and how that/when that is executed
+b. It is a living definition that represents the conceptual plan and as-built state. Like a building
+blueprint.
+c. It should answer the questions of how to build Pilot, what Pilot needs to track and show, i.e.
+dashboards...
+d. “ “ “ how to build Jira
+The SDLC document documents this process. It could be the blueprint of the process. It
+might get too long but the detail of this blueprint should be captured, somewhere.
+Appendixes might be a way to organize the document.
+Pilot and Jira implementation are the architecture and coding of the blueprint. We realize this
+is resource intensive in terms of implementation of the tool, but even more costly in terms of
+team and human execution in working with the tool.
+
+a. Changing the model is expensive so a well-designed process upfront will pay off in the long
+
+run,
+
+So let's take a sample and run it through today's execution. This is a reflection of process
+ambiguities and culture impact.
+Is it well designed, and properly defined in terms of Discovery, and approval? What are the
+Outcomes...
+Is it in Build and CD? What does it look like in the dashboards, i.e. in Pilot, in Jira, resource
+tracking, roll-out.
+Is it Done? When is it Done? Is it in Release?
+Where is the Outcome being tracked, especially after Release? How do we analyze and
+validate the Outcome?
+How do we deal with unhappy path - the Outcome is not matching ROI expectations - can we
+enhance, pivot, kill an effort? What is the cost in User fatigue?...
+Are we losing user experience defects by marking Jiras as WAD to get them out of sight?
+Are we missing the outcome aspects by quickly removing that work, that line, from the
+dashboard?
+...
+Is this rough idea a worthwhile approach, and/or how should it be refined?
+
+ferenc diagram:
+
+Joe 30k:
+
+sdlc-cmte: “We are saying that measuring the value of our vendors / contractors is not part of
+the SDLC process. All of our initiatives should go through the SDLC process, including those
+that use vendors / contractors.
+fspl: Release and Measure is after coding. ?
+
+August 22, 2025
+1. What is the process? It would be nice to have a blueprint of the approved process. This can
+adapt over time
+2. What does the process cover?
+3. Who does the process apply to:
+a. FS Engineering
+b. Homelands?
+c. Councils?
+d. Committees?
+e. Anything the user sees under the familysearch.org domain?
+4. Once we have the process defined and approved decide how to implement and make it
+visible, actionable and we are held responsible to it
+a. just like our initiative - eat our own dog food?
+b. Pilot?
+c. Jira?
+d. ... ?
+5. What is the purpose of the SDLC? to document the process? Stick/Carrot?
+6. Things missing?
+a. Where is "Done"
+b. Where is Production release (THeres a main heading called Release & Measure - but I see
+no Release - and how is % rollout handled
+c. Where do we capture and track measure after Release - copilot, jira...? For how long. i.e. in
+FSPL once its Done there is an urgency to get it out of theway and not look at outcome
+d. I think the Proposal to Investigate is ambiiguous and doesnt seem to have the rigor to
+adequately access ROI... for instance this has many aspect that should be part of the rigor:
+https://icseng.atlassian.net/wiki/spaces/Product/pages/133604440/Cookbook+of+Product
++Architecture
+SDLC Software "Development" Life Cycle maybe misnamed?
+This effort and what the org wants if more than Development. It wants Outcome, not just
+Output. Development implies output, whereas Outcome is more long-lived, beyond Shipping.
+I wonder if the SDLC title itself conveys more about creation of the thing, rather than the
+outcome, especially in experiences that we are investigating, build, testing, releasing,
+measuring and then deciding about success/failure/iterating?
+
+Should the SDLC be renamed FSSLC - FamilySearch Software Life Cycle or something more
+broad - across the full life-time of software we build, or even Experiences we create?- SELC
+Some whiteboard thinking:
+
+Ferenc diagrams
+what latitude do we have to enhance/question it? Or is it already approved as the blueprint of
+the process? https://www.figma.com/design/eLKoxoqmhCOCAd8pzDpCpU/Pilot-v.2f?nodeid=0-1&p=f&t=oFGb7PgWt0nwE1u1-0.
+
+Update: October 2024.
+A new version has been provided: 2.2. The diagrams have been changed a bit, but the review I
+provided did not appear to have any affect. I have modified and done strikeout in the original
+review below.
+
+SDLC Version 2… 024.pdf
+14 Oct 2024, 06:53 PM
+
+SDLC 2.1. Review - 2024 Proposal=
+Management asked for comments on a new FamilySearch Software Development Lifecycle to
+replace the current one. This is an early review of pages 1-21.
+Thanks for requesting comments on the SDLC that is being worked on. I don’t know who
+authored this nor who the audience is so please read my narrative as an opinion, that may be
+uninformed.
+No particular order but reading from page 1.
+1. Who is the reader? 40 37 pages is really thick for a in-flight guide. Personally 10-12 pages
+
+would be my ability to consume. If its supposed to be a definitive detailed reference then it
+could be longer.
+2. Is there supposed to be actionable content? Something like a cookbook?
+3. There’s a couple ways to approach a big Process thing like this.
+a. One is to do a new greenfield ground-up approach.
+b. Another way is to look at what we have, and what is and what is not working well, and
+provide a “update” or bigger yet “refactoring” of what we have today. I look at the diagram,
+and that booklet and say what worked, and what didn’t. Did people even use it?
+4. Most of the document seemed like an aggregation of multiple Sources, with collisions of
+concept and word choices. So it comes across as redundancy, and multiple snippets without
+coherency.
+a. One way to tackle this problem is to create a Glossary, and in that define each term. Doing
+this requires
+i. consolidation of mental models, not simply aggregation of independent pieces.
+ii. Coherency across the terms
+iii. Disambiguation between the terms, so the reader can see that this means this, vs. that
+means something different.
+b. Here are examples of terms that are related, but maybe should be or not, and some are
+undefined
+i. User, Patron, Customer,
+ii. Outcome, Result, Deliverable, Product, Project, Production
+iii. Discovery, investigation, Design, Ideation
+iv. Growth Loop
+v. x- Journey, Story,
+c. Organization, Roles seem to be unorganized.
+
+i. Portfolio Steering Committee is talked about last, but hierarchically should be first?
+ii. Missing Role: Engineer!
+iii. Missing aspects
+
+1. Data/Tree quality and integrity
+2. Information architecture (User domain model coherency, i.e. SCOE)
+
+iv. I feel like we are adopting some of the Torres book. The book is good, but it falls far short
+
+on aspects:
+1. “Outcome” is ambiguous. It does attempt to define it but is not very actionable
+because of lack of discernment and disambiguation.
+2. User Interview is a good 101 approach for a new org. For a mature org like us there are
+huge potential of graduating to better User Inquiry and Design tools like Contextual
+Design. Her anti-patterns illustrate, she does not truly understand user inquiry tools
+and the intricacies of human (user test) behaviors.
+3. Her approach to Design is hand-waving – there is no actionable approach and leaves
+the reader floundering (that’s why they want you to pay for their consulting services?)
+v. User testing (more Torres book thinking)
+1. Sure we can do testing along the whole journey. But different phases (see below) of
+
+the journey have different user interaction/testing actions.
+2. Dual track is good but it misses the actionable approach.
+3. User testing anti-pattern here is to “validate”. No, the user testing should seek to
+“break” and invalidate your assumptions.
+4. My belief is most creators are unable to separate themselves from their baby, and
+confirmation bias will lead to false results and solutions. Even “outcome” is biased as
+well. A neutral party should be part of any testing and metric analysis.
+vi. The diagrams
+1. These are a cartoon drawing of the typical agile/sprint iteration process along a
+timeline. Redone, as "Two tracks" but the different size circles in the top row are
+confusing. Also the fidelity of information has been removed making the diagram more
+ambiguous.
+2. What is the full life journey of the project…? The transition from design, prototype,
+
+implementation, production, maintenance is lacking.
+3. They really do not illustrate how design fits into the full life journey of a project/effort/…
+4. Where is the post-production measure and ROI analysis stage?
+
+a. When can we say we succeeded at time x, or failed? What are those metrics?
+5. Our previous diagram was more descriptive. Should that be the detail with a wider loop
+
+around it? (Back to the earlier approach question of greenfield, vs. modify)
+5. Post-review Additional items
+a. Production Readiness seems like it will be out of date form the confluence page criteria:
+Production Readiness Criteria
+b. This is ambiguous: "We design beyond typical spoken and written language and tap into
+the immense power of spatial thinking. We encourage externalized thinking, and mapping
+what we know." Perhaps it should revert to the original in Torres' Continuous Discovery
+Habits: "Visualizing what we know and what we think unlocks our immense capacity for
+spatial reasoning." And really they are referring to diagrams like Journey Maps.
+c. I think the new Product/Feature Discovery 2-diamond diagram is confusing. Video 1 and
+Video 2 are new, undefined concepts.If we want to dive into detail of Video1 and Video2
+there is a whole new document, and I would suggest we encompass Contextual Design
+(the origin of Video 1 and Video 2) and how this should integrate with Continuous Discovery
+that we are eluding to in the SDLC.
+d. think if a new hire could understand this document, or launch to more definition?
+e. Need more coherency and removal of redundancy between Sell-Off, Definition of Done,
+Product Readiness.
+Current process diagram and booklet in each conference room:
+
+Diagram in new proposal:
+
+Initial ramblings:
+
+Proposal documents:
+
+SDLC Version 2… C-1.pdf
+25 Sep 2024, 04:51 AM
+
+
