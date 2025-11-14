@@ -41,6 +41,19 @@
   --color-amber-200: oklch(90% 0.080 85);
   --color-amber-600: oklch(65% 0.140 85);
   --color-amber-700: oklch(55% 0.130 85);
+
+  /* Brand colors - matching primary blue theme */
+  --color-brand-50: oklch(98% 0.010 264.4);
+  --color-brand-100: oklch(95% 0.025 264.4);
+  --color-brand-200: oklch(90% 0.040 264.4);
+  --color-brand-300: oklch(82% 0.055 264.4);
+  --color-brand-400: oklch(65% 0.070 264.4);
+  --color-brand-500: oklch(55% 0.085 264.4);
+  --color-brand-600: oklch(45.7% 0.078 264.4);
+  --color-brand-700: oklch(38% 0.070 264.4);
+  --color-brand-800: oklch(28% 0.055 264.4);
+  --color-brand-900: oklch(20% 0.040 264.4);
+  --color-brand-950: oklch(12% 0.025 264.4);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -85,5 +98,18 @@
     --color-amber-200: oklch(35% 0.070 85);
     --color-amber-600: oklch(75% 0.120 85);
     --color-amber-700: oklch(80% 0.100 85);
+
+    /* Brand colors - dark mode */
+    --color-brand-50: oklch(12% 0.025 264.4);
+    --color-brand-100: oklch(20% 0.040 264.4);
+    --color-brand-200: oklch(28% 0.055 264.4);
+    --color-brand-300: oklch(38% 0.070 264.4);
+    --color-brand-400: oklch(55% 0.085 264.4);
+    --color-brand-500: oklch(65% 0.090 264.4);
+    --color-brand-600: oklch(70% 0.100 264.4);
+    --color-brand-700: oklch(75% 0.095 264.4);
+    --color-brand-800: oklch(85% 0.070 264.4);
+    --color-brand-900: oklch(92% 0.045 264.4);
+    --color-brand-950: oklch(96% 0.025 264.4);
   }
 }
