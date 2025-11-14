@@ -1,0 +1,15 @@
+{
+  "name": "frontend-design",
+  "version": "1.0.0",
+  "description": "Frontend design skill for UI/UX implementation",
+  "authors": [
+    {
+      "name": "Prithvi Rajasekaran",
+      "email": "prithvi@anthropic.com"
+    },
+    {
+      "name": "Alexander Bricken",
+      "email": "alexander@anthropic.com"
+    }
+  ]
+}
