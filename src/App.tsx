@@ -62,6 +62,12 @@ function App() {
             );
           })}
         </div>
+
+        <footer className="mt-16 pt-8 border-t border-border text-center">
+          <p className="text-xs text-muted-foreground">
+            Version 1.0.1
+          </p>
+        </footer>
       </div>
     </div>
   );
